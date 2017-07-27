@@ -1,0 +1,61 @@
+body
+{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#navigationPane
+{
+	float: left;
+	background-color: deepskyblue;
+	width: 30vw;
+	height: 100vh;
+}
+#tabs
+{
+	border: 1px solid black;
+	height: 4vh;
+	padding: 10px;
+}
+#hamburger
+{
+	border: 1px solid black;
+	float: left;
+}
+#notification
+{
+	border: 1px solid black;
+	float: right;
+}
+#countrylist
+{
+	margin-right: 2vw;
+	border: 1px solid black;
+	float: right;
+}
+#messagePane
+{
+	margin-left: 30vw;
+}
+#tab2
+{
+	border: 1px solid black;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	height: 4vh;
+}
+#countryDp
+{
+	margin-top: 0.5vh;
+	border: 1px solid black;
+	width: 8vh;	
+	height: 6vh;
+	float: left;
+}
+#countryName
+{
+	float: left;
+	margin-top: 1vw;
+	margin-left: 2vw;
+	border: 1px solid black;
+}
