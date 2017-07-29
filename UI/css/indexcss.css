@@ -11,24 +11,27 @@ body
 	width: 30vw;
 	height: 100vh;
 }
-#tabs
+#tab1
 {
 	border: 1px solid black;
-	height: 4vh;
+	height: 6vh;
 	padding: 10px;
 }
 #hamburger
 {
+	margin-top: 1vh;
 	border: 1px solid black;
 	float: left;
 }
 #notification
 {
+	margin-top: 1vh;
 	border: 1px solid black;
 	float: right;
 }
 #countrylist
 {
+	margin-top: 1vh;
 	margin-right: 2vw;
 	border: 1px solid black;
 	float: right;
@@ -40,22 +43,32 @@ body
 #tab2
 {
 	border: 1px solid black;
+	padding-top: 10px;
 	padding-left: 10px;
-	padding-bottom: 20px;
-	height: 4vh;
+	padding-bottom: 10px;
+	height: 6vh;
 }
 #countryDp
 {
-	margin-top: 0.5vh;
 	border: 1px solid black;
-	width: 8vh;	
+	width: 10vh;	
 	height: 6vh;
 	float: left;
 }
 #countryName
 {
+	font-size: 18px;
+	margin-top: 2vh;
 	float: left;
-	margin-top: 1vw;
 	margin-left: 2vw;
+	border: 1px solid black;
+}
+#messagesArea
+{
+	border: 1px solid black;
+	height: 80vh;
+}
+#inputArea
+{
 	border: 1px solid black;
 }
