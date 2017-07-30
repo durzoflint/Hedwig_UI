@@ -1,5 +1,6 @@
 body
 {
+	font-family: "Helvetica";
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -34,6 +35,7 @@ body
 }
 #countrylistArea
 {
+	font-size: 2.5vh;
 	height: 90vh;
 	padding: 1vh;
 	background-color: red;
@@ -57,13 +59,17 @@ body
 }
 #countryName
 {
-	font-size: 18px;
-	margin-top: 2vh;
+	background-color: red;
 	float: left;
-	margin-left: 2vw;
+	font-weight: bold;
+	font-size: 2vh;
+	margin-top: 2vh;
+	margin-left: 1vw;
+	overflow-x: auto;
 }
 #messagesArea
 {
+	font-size: 2.5vh;
 	padding: 1vh;
 	overflow-y: auto;
 	height: 80vh;
@@ -76,6 +82,7 @@ body
 }
 #typeMessagesHere
 {
+	font-size: 2vh;
 	float: left;
 	margin-left: 1vw;
 	margin-top: 1.5vh;
