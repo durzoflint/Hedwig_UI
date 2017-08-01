@@ -98,10 +98,20 @@ body
 	margin-top: 1.5vh;
 	height: 6.5vh;
 }
+#sendOptions
+{
+	float: left;
+}
+#viaEbOption
+{
+	margin-top: 1.5vh;
+	margin-left: 1vw;
+	background-color: lightgreen;
+	font-size: 1.5vh;
+}
 #sendButton
 {
-	margin-top: 4.5vh;
-	float: left;
+	margin-top: 0.5vh;
 	height: 4vh;
 	width: 4vh;
 }

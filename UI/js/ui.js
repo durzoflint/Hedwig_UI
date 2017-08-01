@@ -10,7 +10,7 @@ document.getElementById("typeMessagesHere").style.width = myWidth;
 //31vw + x + 4vh
 var y = (w - (31/100)*w - x - (4/100)*h)/2;
 var myMargin = y + "px";
-document.getElementById("typeMessagesHere").style.marginRight = myMargin;
+document.getElementById("sendButton").style.marginLeft = myMargin;
 
 //31vw + 12vh
 var z = w - (32/100)*w - (12/100)*h;
