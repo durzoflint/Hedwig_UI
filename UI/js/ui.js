@@ -16,3 +16,11 @@ document.getElementById("sendButton").style.marginLeft = myMargin;
 var z = w - (32/100)*w - (12/100)*h;
 var myCountryNameWidth = z + "px";
 document.getElementById("countryName").style.width = myCountryNameWidth;
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "30%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

@@ -5,10 +5,17 @@
 	<link rel="stylesheet" type="text/css" href="css/indexcss.css">
 </head>
 <body>
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#">General Speaker List</a>
+	  <a href="#">Rules of Procedure</a>
+	  <a href="#">Moderated Caucus</a>
+	  <a href="#">Logout</a>
+	</div>
 	<div id="navigationPane">
 		<div id="tab1">
 			<div id="hamburger">
-				<img style='height: 4vh ; width: 4vh' src="res/ic_menu.png" title="Options">
+				<img style='height: 4vh ; width: 4vh' onclick="openNav()" src="res/ic_menu.png" title="Options">
 			</div>
 			<div id="notification">
 				<img style='height: 4vh ; width: 4vh' src="res/ic_notifications.png" title="Notifications">
