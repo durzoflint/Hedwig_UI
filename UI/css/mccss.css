@@ -75,22 +75,14 @@ hr
 {
     float: left;
 }
-#titleBar
-{
-    text-align: center;
-    padding-top: 1vh;
-    padding-left: 1vh;
-    background-color: lightblue;
-    height: 6vh;
-}
-#hamburger
-{
-    float: left;
-}
 #modCoc
 {
+    width: 80vw;
     font-size: 3vh;
     font-weight: bold;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 #speakerList
 {
