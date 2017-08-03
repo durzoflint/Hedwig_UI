@@ -124,3 +124,33 @@ body
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
 }
+#ropButton
+{
+    text-align: center;
+    background-color: red;
+    height: 18.6vh;
+}
+#pamButton
+{
+    text-align: center;
+    background-color: yellow;
+    height: 18.6vh;
+}
+#resButton
+{
+    text-align: center;
+    background-color: lightgreen;
+    height: 18.6vh;
+}
+#oisButton
+{
+    text-align: center;
+    background-color: lightblue;
+    height: 18.6vh;
+}
+#srButton
+{
+    text-align: center;
+    background-color: orange;
+    height: 18.6vh;
+}
