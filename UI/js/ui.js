@@ -24,3 +24,11 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+function openNotif() {
+    document.getElementById("myNotifications").style.width = "30%";
+}
+
+function closeNotif() {
+    document.getElementById("myNotifications").style.width = "0";
+}

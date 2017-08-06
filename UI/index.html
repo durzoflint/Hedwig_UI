@@ -23,13 +23,20 @@
 		<a href=".\resources.html">Resources</a>
 		<a href="#">Logout</a>
 	</div>
+	<div id="myNotifications" class="sidenav">
+		<div>
+			<p>Notifications</p>
+			<hr>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNotif()">&times;</a>
+		</div>
+	</div>
 	<div id="navigationPane">
 		<div id="tab1">
 			<div id="hamburger">
 				<img style='height: 4vh ; width: 4vh' onclick="openNav()" src="res/ic_menu.png" title="Options">
 			</div>
 			<div id="notification">
-				<img style='height: 4vh ; width: 4vh' src="res/ic_notifications.png" title="Notifications">
+				<img style='height: 4vh ; width: 4vh' onclick="openNotif()" src="res/ic_notifications.png" title="Notifications">
 			</div>
 			<div id="countrylist">
 				<img style='height: 4vh ; width: 4vh' src="res/ic_chat.png" title="Country List">
